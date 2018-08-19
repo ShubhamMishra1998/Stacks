@@ -12,7 +12,7 @@ ll maxDepth(string s1)
 			if (c > m)
 				m = c;
 		}
-		else
+		else if(s1[i]==')')
 		{
 			if (c > 0)
 				c--;
